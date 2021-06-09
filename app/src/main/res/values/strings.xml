@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Traveler</string>
+    <string name="take_picture">Take picture</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="image_header">Image</string>
+    <string name="location_header">Location</string>
+
+    <!-- Text Preferences -->
+    <string name="size_title">Text size</string>
+
+    <!-- Location Preferences -->
+    <string name="radius_title">Radius of notifications (in meters)</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="place_photo_preview">Place photo preview</string>
+</resources>

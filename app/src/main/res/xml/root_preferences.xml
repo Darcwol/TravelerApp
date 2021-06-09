@@ -1,0 +1,45 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/image_header">
+
+        <EditTextPreference
+            android:inputType="number|numberDecimal"
+            app:defaultValue="70.0"
+            app:key="text_size"
+            app:title="@string/size_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/location_header">
+
+        <EditTextPreference
+            android:inputType="number|numberDecimal"
+            app:defaultValue="1000"
+            app:key="radius"
+            app:title="@string/radius_title"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:inputType="number"
+            app:defaultValue="255"
+            app:key="red"
+            app:title="@string/red"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:inputType="number"
+            app:defaultValue="255"
+            app:key="green"
+            app:title="@string/green"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            android:inputType="number"
+            app:defaultValue="255"
+            app:key="blue"
+            app:title="@string/blue"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
